@@ -1,13 +1,15 @@
 // import { Link } from 'react-router-dom';
 import Link from 'next/link';
+import logo from '../../../../public/logo.png';
+import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="shadow-lime-100 text-white py-4">
-      <div className="container mx-auto flex items-center justify-around">
-        <h1 className="text-2xl font-semibold">The Disruptors Den</h1>
-        <nav>
-          <ul className="flex space-x-4">
+    <header className="shadow-lime-100 text-black space-between">
+      <div className="container mx-auto flex items-center justify-between">
+        <Image className='w-20' src={logo} alt='logo'/>
+        <nav className=''>
+          <ul className="flex space-x-8">
             <li>
               <a href="/">Home</a>
             </li>
@@ -23,10 +25,9 @@ export default function Header() {
             <li>
               <Link href="/media">Media</Link>
             </li>
-          <button>Join Community</button>
           </ul>
-
         </nav>
+        <button className='border-2 border-black p-2 border rounded-full text-sm '>Join Community</button>
       </div>
     </header>
   );
