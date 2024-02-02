@@ -72,14 +72,14 @@ const UpcomingEvent: React.FC = () => {
       venue: 'Zoom Meeting',
       date: 'April 10, 2023',
       host: 'Community Organizers',
-      imageUrl: 'https://media2.giphy.com/media/cnNLE8mJYwJb6aZ6LQ/giphy.gif'
+      imageUrl: 'https://media.giphy.com/media/TH0H5O1fnEVRvTidKT/giphy.gif?cid=ecf05e47wmgt9bfb4mkj5zatfvnr9kizdjhrur5l3gevaa5h&ep=v1_gifs_search&rid=giphy.gif&ct=g'
     },
     {
       title: 'Third Community Event',
       venue: 'Discord Server',
       date: 'May 5, 2023',
       host: 'Event Hosts',
-      imageUrl: 'https://media2.giphy.com/media/cnNLE8mJYwJb6aZ6LQ/giphy.gif'
+      imageUrl: 'https://media.giphy.com/media/wVhYn5jI6Cc9VtdMZD/giphy.gif?cid=790b7611y8jc1twqalkqtkc57aamz4jtchjkz3g6ekn90kwq&ep=v1_gifs_search&rid=giphy.gif&ct=g'
     }
   ];
 

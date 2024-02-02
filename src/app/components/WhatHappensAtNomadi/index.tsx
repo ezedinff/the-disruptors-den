@@ -25,6 +25,7 @@ export default function WhatHappensAtNomadi() {
                     <Image 
                     src={GroupSvg}
                     alt="Group"
+                    layout='intrinsic'
                     className='block w-12 h-12 text-gray-400 mb-4 mx-auto'
                    /> 
                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
@@ -43,6 +44,7 @@ export default function WhatHappensAtNomadi() {
                 </h2> */}
                 <Image 
                     src={GroupTips}
+                    layout='intrinsic'
                     alt="Group"
                     className='block w-12 h-12 text-gray-400 mb-4 mx-auto'
                    /> 
@@ -61,6 +63,7 @@ export default function WhatHappensAtNomadi() {
                 <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <Image 
                     src={CityHangout}
+                    layout='intrinsic'
                     alt="Group"
                     className='block w-12 h-12 text-gray-400 mb-4 mx-auto'
                    /> 
@@ -78,6 +81,7 @@ export default function WhatHappensAtNomadi() {
 
                 <Image 
                     src={Opportunities}
+                    layout='intrinsic'
                     alt="Group"
                     className='block w-12 h-12 text-gray-400 mb-4 mx-auto'
                    />
@@ -97,6 +101,7 @@ export default function WhatHappensAtNomadi() {
                 <Image 
                     src={VirtualNet}
                     alt="Group"
+                    layout='intrinsic'
                     className='block w-12 h-12 text-gray-400 mb-4 mx-auto'
                    />
                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
@@ -113,6 +118,7 @@ export default function WhatHappensAtNomadi() {
                 <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <Image
                     src={PersonalGrowth}
+                    layout='intrinsic'
                     alt="Group"
                     className='block w-12 h-12 text-gray-400 mb-4 mx-auto'
                    />

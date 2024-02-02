@@ -7,7 +7,7 @@ export default function WhoWeAre() {
         <div className="flex flex-wrap mb-12 text-left">
           <div className="w-full mx-auto lg:w-1/3">
             <h2 className="mb-4 text-3xl font-semibold tracking-tight text-center text-black sm:text-4xl title-font">
-            We are nomadies
+            We are The Disrupters Den
             </h2>
             <p className="mb-4  text-center leading-relaxed text-gray-600">
             A diverse group of remote and digital workers including software engineers, freelancers, designers, creatives & influencers, writers, product, growth & sales specialists, operators, investors, and founders united with a common mission of building the home for digital talents.
