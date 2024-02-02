@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import logo from '../../../../public/logo.png';
+import logo from '../../../../public/images/logo.png';
 
 const navItems = [
   { title: 'Home', href: '/' },

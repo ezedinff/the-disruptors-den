@@ -1,7 +1,7 @@
-import HeroSvg from "../../../../public/Hero section Image.svg";
+import HeroSvg from "../../../../public/svg/hero-section-img.svg";
 import Image from "next/image";
-import underline from "../../../../public/underline.svg";
-import vector from "../../../../public/Vector1.svg";
+import underline from "../../../../public/svg/underline.svg";
+import vector from "../../../../public/svg/vector1.svg";
 
 export default function Hero() {
   return (
@@ -16,7 +16,7 @@ export default function Hero() {
               <span>The choice community for </span>
               <span className="relative inline-block pb-2">
                 <span className="text-green-900">entrepreneurs</span>
-                {/* <Image src={underline} alt="underline" layout="fill" className="absolute top-[-12px]" /> */}
+                <Image src={underline} alt="underline" layout="fi ll" className="absolute top-[-12px]" />
               </span>
               <span> <br />and aspiring ones</span>
             </div>

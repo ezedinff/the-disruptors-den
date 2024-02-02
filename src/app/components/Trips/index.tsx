@@ -1,7 +1,5 @@
 import Image from "next/image";
-import Man from "../../../../public/beach.png";
-import event from "../../../../public/images/event.png";
-// https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-8.png
+import Man from "../../../../public/images/beach.png";
 
 interface CardProps {
   title: string;

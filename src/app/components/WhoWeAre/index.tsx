@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Man from '../../../../public/man-with-sunglasses.png'
+import Man from '../../../../public/images/man-with-sunglasses.png'
 export default function WhoWeAre() {
   return (
     <section className="bg-gray-100">
