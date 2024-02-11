@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Darker_Grotesque } from "next/font/google";
 import "./globals.css";
+import RootStyleRegistry from "./mantine";
 
 const inter = Inter({ subsets: ["latin"] });
 const darker_Grotesque = Darker_Grotesque({ subsets: ["latin"] });
@@ -23,7 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={darker_Grotesque.className}>{children}
+      <body suppressHydrationWarning={true} className={darker_Grotesque.className}>
+        <RootStyleRegistry>
+          {children}
+        </RootStyleRegistry>
       </body>
     </html>
   );
