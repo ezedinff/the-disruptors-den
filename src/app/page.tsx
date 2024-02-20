@@ -18,7 +18,7 @@ export default function Page() {
       <WhatHappensAtNomadi />
       <WhoWeAre />
       <Events />
-      <Subscribe />
+      {/* <Subscribe /> */}
       <Gallery />
       <ContactUs />
       <Footer />

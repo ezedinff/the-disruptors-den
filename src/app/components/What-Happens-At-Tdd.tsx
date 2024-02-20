@@ -20,9 +20,9 @@ export default function WhatHappensAtNomadi() {
       </Box>
       <Box className="container px-5 py-24 mx-auto">
         <Box className="flex flex-wrap -m-4">
-          <Box className="p-4 lg:w-1/3">
-            <Box className="px-8 pb-24 rounded-lg overflow-hidden text-center ">
-              {/*bg-gray-50*/}
+          <Box className="p-4  lg:w-1/3">
+            <Box className="px-8  hover:shadow-md bg-gray-100 p-12 rounded-lg overflow-hidden text-center ">
+              {/*bg-gray-100*/}
               <Image
                 src={GroupSvg}
                 alt="Group"
@@ -32,14 +32,14 @@ export default function WhatHappensAtNomadi() {
               <Text className="sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                 Masterclass
               </Text>
-              <p className="mb-3">
+              <Text className="mb-3">
                 Learn from the best in the industry. Our masterclasses are
                 taught by industry experts who have been in the game for years.
-              </p>
+              </Text>
             </Box>
           </Box>
           <Box className="p-4 lg:w-1/3">
-            <Box className="  px-8  pb-24 rounded-lg overflow-hidden text-center ">
+            <Box className="  px-8 hover:shadow-md  bg-gray-100 p-12 rounded-lg overflow-hidden text-center ">
               <Image
                 src={GroupTips}
                 layout="intrinsic"
@@ -49,15 +49,15 @@ export default function WhatHappensAtNomadi() {
               <Text className="sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                 Group Trips
               </Text>
-              <p className=" mb-3">
+              <Text className=" mb-3">
                 Travel the world with us. We host group trips to different
                 cities around the world. We take care of the logistics, you just
                 have to show up.
-              </p>
+              </Text>
             </Box>
           </Box>
           <Box className="p-4 lg:w-1/3">
-            <Box className="  px-8  pb-24 rounded-lg overflow-hidden text-center ">
+            <Box className="  px-8 hover:shadow-md  bg-gray-100 p-12 rounded-lg overflow-hidden text-center ">
               <Image
                 src={CityHangout}
                 layout="intrinsic"
@@ -67,14 +67,14 @@ export default function WhatHappensAtNomadi() {
               <Text className="sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                 City Hangouts and Mixers
               </Text>
-              <p className=" mb-3">
+              <Text className=" mb-3">
                 Meet other digital nomads in your city. We host monthly hangouts
-                and mixers in different cities around the world.
-              </p>
+                and mixers in different cities around the world to help you connect with other disruptors.
+              </Text>
             </Box>
           </Box>
           <Box className="p-4 lg:w-1/3">
-            <Box className="  px-8  pb-24 rounded-lg overflow-hidden text-center ">
+            <Box className="  px-8 hover:shadow-md  bg-gray-100 p-12 rounded-lg overflow-hidden text-center ">
               <Image
                 src={Opportunities}
                 layout="intrinsic"
@@ -84,15 +84,15 @@ export default function WhatHappensAtNomadi() {
               <h1 className="sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                 Opportunities & Resources
               </h1>
-              <p className=" mb-3">
+              <Text className=" mb-3">
                 Find opportunities and resources to help you grow your business.
                 We have a list of opportunities and resources that will help you
                 grow your business.
-              </p>
+              </Text>
             </Box>
           </Box>
           <Box className="p-4 lg:w-1/3">
-            <Box className="  px-8  pb-24 rounded-lg overflow-hidden text-center ">
+            <Box className="  px-8 hover:shadow-md  bg-gray-100 p-12 rounded-lg overflow-hidden text-center ">
               <Image
                 src={VirtualNet}
                 alt="Group"
@@ -102,14 +102,14 @@ export default function WhatHappensAtNomadi() {
               <h1 className="sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                 Virtual Networking
               </h1>
-              <p className=" mb-3">
+              <Text className=" mb-3">
                 Meet other digital nomads from around the world. We host virtual
-                networking events every month.
-              </p>
+                networking events every month to help you connect with other disruptors.
+              </Text>
             </Box>
           </Box>
           <Box className="p-4 lg:w-1/3">
-            <Box className="  px-8  pb-24 rounded-lg overflow-hidden text-center ">
+            <Box className="  px-8 hover:shadow-md  bg-gray-100 p-12 rounded-lg overflow-hidden text-center ">
               <Image
                 src={PersonalGrowth}
                 layout="intrinsic"
@@ -119,10 +119,10 @@ export default function WhatHappensAtNomadi() {
               <h1 className="sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                 Personal Growth
               </h1>
-              <p className=" mb-3">
+              <Text className=" mb-3">
                 Learn how to grow your business. We host monthly workshops to
-                help you grow your business.
-              </p>
+                help you grow your business and take it to the next level with our personal growth workshops. 
+              </Text>
             </Box>
           </Box>
         </Box>

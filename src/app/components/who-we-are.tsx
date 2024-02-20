@@ -21,13 +21,13 @@ export default function WhoWeAre() {
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#184235] animate-pulse"></span>
               </span>
             </Text>
-            <p className="mb-4 text-center font-medium text-gray-600">
+            <Text className="mb-4 text-center font-medium text-md">
               A diverse group of remote and digital workers including software
               engineers, freelancers, designers, creatives & influencers,
               writers, product, growth & sales specialists, operators,
               investors, and founders united with a common mission of building
               the home for digital talents.
-            </p>
+            </Text>
           </Box>
         </Box>
         <Carousel

@@ -35,7 +35,7 @@ export default function Events() {
                 Personal Branding and Leadership Development
                 </Text>
                 <Text className="lg:w-80   mx-auto text-base leading-relaxed font-bold">
-                Jan 27, 2024 at ALXEthiopia, Haya Hulet Hub
+                Feb 24, 2024 at ALXEthiopia, Haya Hulet Hub
                 </Text>
                 <Text className="text-center mx-auto text-base leading-relaxed font-bold">
                 Starting from 2PM (8LT) 
@@ -65,7 +65,7 @@ export default function Events() {
                 Personal Branding and Leadership Development
                 </Text>
                 <Text className="lg:w-80   mx-auto text-base leading-relaxed font-bold">
-                Jan 27, 2024 at ALXEthiopia, Haya Hulet Hub
+                Feb 24, 2024 at ALXEthiopia, Haya Hulet Hub
                 </Text>
                 <Text className="text-center mx-auto text-base leading-relaxed font-bold">
                 Starting from 2PM (8LT) 
@@ -95,7 +95,7 @@ export default function Events() {
                 Personal Branding and Leadership Development
                 </Text>
                 <Text className="lg:w-80   mx-auto text-base leading-relaxed font-bold">
-                Jan 27, 2024 at ALXEthiopia, Haya Hulet Hub
+                Feb 24, 2024 at ALXEthiopia, Haya Hulet Hub
                 </Text>
                 <Text className="text-center mx-auto text-base leading-relaxed font-bold">
                 Starting from 2PM (8LT) 
